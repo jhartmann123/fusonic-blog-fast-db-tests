@@ -6,10 +6,10 @@ To get the tests running, you need at least
 - Docker 20.10
 
 Then start 
-- run_postgres, which starts a postgres server in docker
-- create_testdb, which creates a test database template on the server
+- `1_run_postgres`, which starts a postgres server in docker
+- `2_create_testdb`, which creates a test database template on the server
 
-You can either run the tests directly from your IDE (VisualStudio, VS Code, Rider, ...) or run them using the run_tests script.
+You can either run the tests directly from your IDE (VisualStudio, VS Code, Rider, ...) or run them using the `3_run_tests` script.
 
 Note: 
 When running the tests, the postgres service logs tons of error messages
